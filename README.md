@@ -30,3 +30,6 @@ The student will choose only one topic of the list below:
 - Transportation
 - Health
 
+# SOLUTION
+UML:
+https://app.lucidchart.com/invitations/accept/0f53a96e-7e26-49e4-a556-584d74c9803d
