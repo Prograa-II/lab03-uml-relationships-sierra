@@ -5,8 +5,22 @@
 #ifndef BASIC_00_EXAMPLE_PROFESOR_H
 #define BASIC_00_EXAMPLE_PROFESOR_H
 
+#include "Persona.h"
+class Profesor : public Persona {
+    int cantidadCursos;
+    int horasTrabajo;
+    int horasExtra;
 
-class Profesor {
+private:
+    Profesor();
+    Profesor(int, int, int);
+    int getCantidadCursos();
+    int getHorasTrabajo();
+    int getHorasExtra();
+    void setCantidadCursos(int cantidadCursos);
+    void setHorasTrabajo(int HorasTrabajo);
+    void setHorasExtra( int HorasExtra);
+    std::string toString() const;
 
 };
 

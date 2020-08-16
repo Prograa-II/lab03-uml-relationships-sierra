@@ -13,7 +13,6 @@ class Persona {
     int age;
 
 private:
-    Persona();
     Persona(std::string name, std::string id, int age);
     std::string getName();
     void setName(std::string name);
@@ -22,6 +21,9 @@ private:
     int getAge();
     void setAge(int age);
     std::string toString()const;
+
+protected:
+    Persona();
 };
 
 
