@@ -8,11 +8,12 @@
 #include <iomanip>
 
 class Persona {
+private:
     std::string name;
     std::string id;
     int age;
 
-private:
+public:
     Persona(std::string name, std::string id, int age);
     std::string getName();
     void setName(std::string name);

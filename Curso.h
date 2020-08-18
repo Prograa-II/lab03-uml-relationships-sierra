@@ -9,13 +9,15 @@
 #include "Profesor.h"
 
 class Curso {
+
+private:
     std::string code;
     std::string name;
     int date;
     int hour;
     Profesor *professor;
 
-private:
+public:
     Curso();
     Curso(std::string code, std::string name, int date, int hour, Profesor*professor);
     std::string getCode();

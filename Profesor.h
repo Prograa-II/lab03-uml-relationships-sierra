@@ -7,11 +7,12 @@
 
 #include "Persona.h"
 class Profesor : public Persona {
+private:
     int cantidadCursos;
     int horasTrabajo;
     int horasExtra;
 
-private:
+public:
     Profesor();
     Profesor(int, int, int);
     int getCantidadCursos();

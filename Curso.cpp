@@ -68,7 +68,7 @@ std::string Curso::toString() {
     s << "\tCode: " << getCode() << std::endl;
     s << "\tDate: " << getDate() << std::endl;
     s << "\tHour: " << getHour() << std::endl;
-    s << "\tProfessor: " <<professor<< std::endl;  //aca el getProfessor() me da error y no se por que :(
+    s << "\tProfessor: \n\t" << professor->toString() << std::endl;  //aca el getProfessor() me da error y no se por que :(
     return s.str();
     return std::string();
 }
